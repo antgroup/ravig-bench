@@ -1,0 +1,9 @@
+json-repair
+aiohttp
+openai
+scikit-learn
+pyppeteer
+PIL
+playwright
+bs4
+lxml

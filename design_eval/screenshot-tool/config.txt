@@ -1,0 +1,6 @@
+root=/Users/huqirui/visual_rich_bench
+input_file=test.jsonl
+type=web
+width=800
+output=/Users/huqirui/visual_rich_bench/Screenshots_debug/Gemini
+processes=10
