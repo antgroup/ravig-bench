@@ -1,8 +1,20 @@
-# RAViG-Bench: A Benchmark for Retrieval-Augmented Visually-rich Generation with Multi-modal Automated Evaluation
+# RAViG-Bench  
+**A Benchmark for Retrieval-Augmented Visually-rich Generation with Multi-modal Automated Evaluation**
 
-**Official implementation of "RAViG-Bench: A Benchmark for Retrieval-Augmented Visually-rich Generation with Multi-modal Automated Evaluation" (ICLR 2026, Under Review)**
+> **Official implementation of**  
+> *"RAViG-Bench: A Benchmark for Retrieval-Augmented Visually-rich Generation with Multi-modal Automated Evaluation"*  
+> (ICLR 2026, Under Review)
 
-RAViG-Bench is a comprehensive benchmark designed to evaluate **Retrieval-Augmented Visually-rich Generation (RAVG)** systems—models that generate HTML/CSS code enriched with visual design informed by retrieved reference documents. Our benchmark introduces a multi-dimensional evaluation framework covering **execution correctness**, **design quality**, and **content quality**, supported by automated, multi-modal assessment tools.
+---
+
+RAViG-Bench is a comprehensive benchmark for evaluating **Retrieval-Augmented Visually-rich Generation (RAViG)** systems—models that generate HTML/CSS code enriched with visual design informed by retrieved reference documents. Our benchmark introduces a multi-dimensional evaluation framework covering **execution correctness, design quality, and content quality**, supported by **automated, multi-modal** assessment tools.
+
+## 🌟 Key Features
+
+- **Multi-dimensional Evaluation**: Assesses models across three critical dimensions:
+  - **Execution Correctness**: Validate HTML execution correctness.
+  - **Design Quality**: Assess visual design quality via automated screenshot analysis and heuristic checks.
+  - **Content Quality**: Evaluate content quality using LLM-based prompting.
 
 ---
 
