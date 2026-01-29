@@ -3,7 +3,6 @@
 
 > **Official implementation of**  
 > *"RAViG-Bench: A Benchmark for Retrieval-Augmented Visually-rich Generation with Multi-modal Automated Evaluation"*  
-> (ICLR 2026, Under Review)
 
 ---
 
@@ -45,7 +44,10 @@ information_eval/               # 📝 Content Quality Evaluation
 └── information_eval_report.sh  # Script to run LLM-based content evaluation
 
 functions/                      # Helper utilities
-data/                           # Sample inputs / few-shots for design_eval
+data/                           # dataset and project-related data
+├── dataset/                    # RAViG-Bench dataset
+├── few_shots/                  # few-shots for design_eval
+└── test_case/                  # Sample inputs
 ```
 
 ---
